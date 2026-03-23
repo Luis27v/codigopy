@@ -12,4 +12,10 @@ elif media <= 3:
 
 n5 = float(input())
 print("nota de exame: {:1.f}".format(n5))
+media = (media + n5) / 2
+
+if media >= 5:
+    print ('aluno aprovado.')
+else:
+    print ('aluno reprovado.')
                                     
