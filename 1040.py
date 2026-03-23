@@ -16,6 +16,6 @@ media = (media + n5) / 2
 
 if media >= 5:
     print ('aluno aprovado.')
-else:
+else:           
     print ('aluno reprovado.')
                                     
