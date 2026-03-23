@@ -1,6 +1,6 @@
-codigo, quantidade = map(float,(input).split(' '))
+codigo, quantidade = map(float,(input()).split(' '))
 
-if(codigo == 1):
+if (codigo == 1):
     precototal = 4.00 * quantidade
 elif(codigo == 2):
     precototal = 4.50 * quantidade
