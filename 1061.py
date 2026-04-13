@@ -1,7 +1,7 @@
-diaA = int(input().split(" "))
+diaA = int(input().split(" ") [1])
 horaA, minutoA, segundoA = map(int, input(). split(' : '))
 
-diaB = int(input().split(" "))
+diaB = int(input().split(" ")[1])
 horaB, minutoB, segundoB = map(int, input(). split(' : '))
 
 segundos = (segundoB - segundoA) % 60
